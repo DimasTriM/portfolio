@@ -61,6 +61,7 @@ body {
 }
 
 .open-sans-font {
+  font-size: 20px;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -611,7 +612,7 @@ body.light hr.separator {
 
 .home .home-details p {
   margin: 15px 0 28px;
-  font-size: 16px;
+  font-size: 25px;
   line-height: 35px;
 }
 
@@ -619,6 +620,13 @@ body.light hr.separator {
 
 .about .main-content {
   padding-bottom: 20px;
+}
+
+p {
+  font-size: 27px;
+  font-family: sans-serif;
+  line-height: 1.8;
+  margin: 0 0 1.2rem;
 }
 
 /* Personal Info List */
@@ -1362,7 +1370,7 @@ body.light hr.separator {
   }
 
   .home .home-details h1 {
-    font-size: 38px;
+    font-size: 35px;
     line-height: 48px;
     margin: 29px 0 13px;
   }
@@ -1409,8 +1417,8 @@ body.light hr.separator {
     border-radius: 3px;
     z-index: 1;
     transform-origin: 5px 0;
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-    background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    background: 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
     opacity 0.55s ease;
   }
 
@@ -1504,7 +1512,7 @@ body.light hr.separator {
   }
 
   .portfolio .slideshow {
-    background: #252525;
+    background: #f1f1f1;
   }
 
   .portfolio .slideshow nav span {
